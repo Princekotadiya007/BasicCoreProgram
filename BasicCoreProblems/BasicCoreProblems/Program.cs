@@ -10,7 +10,7 @@ namespace BasicCoreProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin");
+            Console.WriteLine("1.FlipCoin, \n2 LeapYear");
             Console.WriteLine("Enter a option");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -19,6 +19,10 @@ namespace BasicCoreProblems
                 case 1:
                     FlipCoin flip = new FlipCoin();
                     flip.Coin();
+                    break;
+                case 2:
+                    LeapYear year = new LeapYear();
+                    year.Checkyear();
                     break;
             }
         }
