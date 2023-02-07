@@ -10,7 +10,7 @@ namespace BasicCoreProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin, \n2 LeapYear");
+            Console.WriteLine("1.FlipCoin, \n2 LeapYear, \n3 PowerOfTwo");
             Console.WriteLine("Enter a option");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -23,6 +23,10 @@ namespace BasicCoreProblems
                 case 2:
                     LeapYear year = new LeapYear();
                     year.Checkyear();
+                    break;
+                case 3: 
+                    PowerOfTwo squreTwo = new PowerOfTwo();
+                    squreTwo.Table();
                     break;
             }
         }
