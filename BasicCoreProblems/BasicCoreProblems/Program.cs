@@ -10,7 +10,7 @@ namespace BasicCoreProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin, \n2 LeapYear, \n3 PowerOfTwo, \n4 HarmonicNumber, \n5 Factors");
+            Console.WriteLine("1.FlipCoin, \n2 LeapYear, \n3 PowerOfTwo, \n4 HarmonicNumber, \n5 Factors, \n6 QuotientAndRemainder");
             Console.WriteLine("Enter a option");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -35,6 +35,10 @@ namespace BasicCoreProblems
                 case 5:
                     Factors factors = new Factors();
                     factors.PrimeFactors();
+                    break;
+                case 6:
+                    QuotientAndRemainder QR = new QuotientAndRemainder();
+                    QR.QuotinetAndRemainders();
                     break;
             }
         }
