@@ -10,7 +10,7 @@ namespace BasicCoreProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin, \n2 LeapYear, \n3 PowerOfTwo, \n4 HarmonicNumber, \n5 Factors, \n6 QuotientAndRemainder, \n7 SwapTwoValue");
+            Console.WriteLine("1.FlipCoin, \n2 LeapYear, \n3 PowerOfTwo, \n4 HarmonicNumber, \n5 Factors, \n6 QuotientAndRemainder, \n7 SwapTwoValue \n8 Even or Odd");
             Console.WriteLine("Enter a option");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -43,6 +43,10 @@ namespace BasicCoreProblems
                 case 7:
                     SwapTwoValue swapTwoValue = new SwapTwoValue();
                     swapTwoValue.SwapTwo();
+                    break;
+                case 8:
+                    EvenOdd evenOdd = new EvenOdd();
+                    evenOdd.EvenOrOdd();
                     break;
             }
         }
