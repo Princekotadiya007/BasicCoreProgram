@@ -10,7 +10,7 @@ namespace BasicCoreProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin, \n2 LeapYear, \n3 PowerOfTwo, \n4 HarmonicNumber, \n5 Factors, \n6 QuotientAndRemainder, \n7 SwapTwoValue \n8 Even or Odd \n9 VowelOrConsonant");
+            Console.WriteLine("1.FlipCoin, \n2 LeapYear, \n3 PowerOfTwo, \n4 HarmonicNumber, \n5 Factors, \n6 QuotientAndRemainder, \n7 SwapTwoValue \n8 Even or Odd \n9 VowelOrConsonant, \n10 LargestNumber");
             Console.WriteLine("Enter a option");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -51,6 +51,10 @@ namespace BasicCoreProblems
                 case 9:
                     VowelOrConsont vowel= new VowelOrConsont();
                     vowel.VowelConsonant();
+                    break;
+                case 10:
+                    LargestAmong largestAmong = new LargestAmong();
+                    largestAmong.LargestNumber();
                     break;
                 default:
                     Console.WriteLine("Choose a Correct option");

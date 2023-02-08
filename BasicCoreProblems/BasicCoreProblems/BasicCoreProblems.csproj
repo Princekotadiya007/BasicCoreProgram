@@ -47,6 +47,7 @@
     <Compile Include="Factors.cs" />
     <Compile Include="FlipCoin.cs" />
     <Compile Include="Harmonic.cs" />
+    <Compile Include="LargestAmong.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="Program.cs" />
